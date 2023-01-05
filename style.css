@@ -1,13 +1,48 @@
 html,
 body {
-  background-color: black;
+  margin: 10px;
+  padding: 10px;
+  background: black;
 }
-.button {
-  background-color: #4caf50;
-  border: 3px solid white;
-  color: white;
-  padding: 20px 40px;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: arial;
+div {
+  width: 700px;
+  height: 950px;
+  background-color: rgb(110, 110, 104);
+  padding-bottom: 10px;
+}
+
+.book1 {
+  background: green;
+  width: 500px;
+  height: 900px;
+  border: 3px solid rgb(1, 20, 1);
+  box-sizing: border-box;
+  margin: 10px 90px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 96px;
+  margin-bottom: 100px;
+}
+h2 {
+  text-align: center;
+  font-size: 26px;
+}
+main {
+  color: #e2ebee;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+footer {
+  width: 55%;
+  background-color: #d3d4df;
+  border: 3px solid #acacac;
+  border-radius: 10px;
+  color: #01161d;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
 }
